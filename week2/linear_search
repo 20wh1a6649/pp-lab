@@ -1,0 +1,41 @@
+def taking_input():
+    size = int(input())
+    l = []
+    for i in range(size):
+        ele = int(input())
+        l.append(ele)
+    return l
+
+def linear_search(lst, key):
+    for i in range(len(lst)):
+        if lst[i] == key:
+            return i
+    return -1
+
+    
+def main():
+    l = taking_input()
+    key = int(input("Element to be searched : "))
+    pos = linear_search(l, key)
+    if pos == -1:
+        return "element not found"
+    else:
+        return f"element found at {pos + 1}"
+print(main())
+
+
+INPUT:
+7
+12
+56
+34
+78
+55
+78
+90
+Element to be searched : 90
+
+OUTPUT:
+element found at 7
+
+
