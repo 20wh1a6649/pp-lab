@@ -6,7 +6,7 @@ print(f'{num1} * {num2} = {num1 * num2}')
 print(f'{num1} / {num2} = {num1 / num2}')
 print(f'{num1} // {num2} = {num1 // num2}')
 print(f"{num1} % {num2} = {num1 % num2}")
-
+print(f"{num1} ** {num2} = {num1 ** num2}")
 
 '''
 INPUT
@@ -21,4 +21,5 @@ OUTPUT
 4 / 5 = 0.8
 4 // 5 = 0
 4 % 5 = 4
+4 ** 5 = 1024
 '''
